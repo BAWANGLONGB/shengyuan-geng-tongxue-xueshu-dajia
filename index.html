@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alien Invasion</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app" aria-label="Alien Invasion game">
+      <section class="hud" aria-label="Game status">
+        <div>
+          <span class="label">SCORE</span>
+          <strong id="score">0</strong>
+        </div>
+        <div>
+          <span class="label">LEVEL</span>
+          <strong id="level">1</strong>
+        </div>
+        <div>
+          <span class="label">LIVES</span>
+          <strong id="lives">3</strong>
+        </div>
+      </section>
+
+      <div class="stage">
+        <canvas id="game" width="960" height="640" aria-label="Alien Invasion canvas"></canvas>
+        <div id="overlay" class="overlay">
+          <h1>Alien Invasion</h1>
+          <p>Left / Right or A / D move | Space shoot | P pause</p>
+          <button id="startButton" type="button">Start</button>
+        </div>
+      </div>
+
+      <section class="controls" aria-label="Touch controls">
+        <button id="leftButton" type="button" aria-label="Move left">&lt;</button>
+        <button id="fireButton" type="button" aria-label="Fire">FIRE</button>
+        <button id="rightButton" type="button" aria-label="Move right">&gt;</button>
+      </section>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
