@@ -1,6 +1,6 @@
-# Alien Invasion
+# 声援耿同学学术打假
 
-一个零依赖、开源的 HTML5 Canvas 外星人入侵小游戏。直接打开 `index.html` 就可以玩。
+直接打开 `index.html` 就可以玩。
 
 ## 玩法
 
